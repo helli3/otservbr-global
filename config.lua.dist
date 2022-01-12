@@ -32,10 +32,10 @@ loginProtocolPort = 7171
 gameProtocolPort = 7172
 statusProtocolPort = 7171
 maxPlayers = 0
-motd = "Bem vindo ao OTServBR-Global!"
+motd = "Witaj na serwerze"
 onePlayerOnlinePerAccount = true
 allowClones = false
-serverName = "OTServBR-Global"
+serverName = "Hellves"
 statusTimeout = 5 * 1000
 replaceKickOnLogin = true
 maxPacketsPerSecond = 25
@@ -106,7 +106,7 @@ pushDistanceDelay = 1500
 -- NOTE: set mapName WITHOUT .otbm at the end
 -- NOTE: unzip the map world.rar
 mapName = "otservbr"
-mapAuthor = "OTServBR"
+mapAuthor = "Helli"
 
 -- Party List limitations
 -- max distance in which players in party list are visible
@@ -119,7 +119,7 @@ mapCustomName = "otservbr-custom"
 mapCustomFile = "data/world/custom/otservbr-custom.otbm"
 mapCustomSpawn = "data/world/custom/otservbr-custom-spawn.xml"
 mapCustomAuthor = "OTServBR"
-mapCustomEnabled = true
+mapCustomEnabled = false
 
 -- Market
 marketOfferDuration = 30 * 24 * 60 * 60
@@ -131,7 +131,7 @@ maxMarketOffersAtATimePerPlayer = 100
 mysqlHost = "127.0.0.1"
 mysqlUser = "root"
 mysqlPass = ""
-mysqlDatabase = "otservbr-global"
+mysqlDatabase = "ots"
 mysqlPort = 3306
 mysqlSock = ""
 
@@ -210,10 +210,10 @@ defaultPriority = "high"
 startupDatabaseOptimization = true
 
 -- Status server information
-ownerName = "OTServBR-Global"
+ownerName = "Helli"
 ownerEmail = ""
-url = "https://github.com/opentibiabr/otservbr-global"
-location = "South America"
+url = "hellves.pl"
+location = "Europe"
 
 -- Sends Discord webhook notifications on startup, raids and shutdown.
 -- The URL layout is https://discord.com/api/webhooks/:id/:token
